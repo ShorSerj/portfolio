@@ -1,0 +1,430 @@
+* {}
+
+.previe-container {
+    font-family: 'LeagueSpartan';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #AFB1C1;
+    background-color: #1C1D25;
+    height: 100vh;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 38px 118px 0px 0px;
+}
+
+.header-logo {
+    vertical-align: middle;
+    height: auto;
+    width: 57px;
+    position: absolute;
+    left: 120px;
+    top: 5px;
+}
+
+.nav-links li {
+    padding: 0px 0px 0px 45px;
+    letter-spacing: 0.9px;
+}
+
+.no-single-work svg {
+    width: 40px;
+    height: 20px;
+}
+
+.no-single-work path {
+    fill: #b0b2c3;
+}
+
+.name-container {
+    padding: 212px 0 0px 183px;
+    color: white;
+}
+
+.name-container h1 {
+    font-size: 68px;
+    position: relative;
+    z-index: 1;
+}
+
+.name-logo {
+    position: absolute;
+    top: 189px;
+    left: 633px;
+    z-index: 0;
+    opacity: 0.65;
+    width: 230px;
+}
+
+.name-container h3 {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 20px;
+    padding-top: 46px;
+    font-style: italic;
+    font-weight: 400;
+    word-spacing: 0.6px;
+    letter-spacing: 1px;
+}
+
+.name-container button {
+    font-family: 'LeagueSpartan';
+    font-weight: 400;
+    margin: 48px 0 0 0;
+    background: linear-gradient(270deg, #f06449, #ef3636);
+    border: none;
+    color: white;
+    padding: 15px 22px 15px 22px;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+.socnet {
+    position: absolute;
+    top: 248px;
+    right: 32px;
+}
+
+.socnet li {
+    padding-bottom: 18px;
+}
+
+.socnet svg {
+    width: 23px;
+    height: 23px;
+}
+
+.socnet path {
+    fill: #b0b2c3;
+}
+
+.button-contact {
+    position: relative;
+}
+
+.button-icon {
+    position: absolute;
+    width: 36px;
+    top: 4px;
+    right: -25px;
+}
+
+.button-icon svg {
+    fill: white;
+}
+
+.view-projects {
+    left: 50%;
+    bottom: 32px;
+    position: absolute;
+    transform: translate(-50%, 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-projects-text {
+    padding-bottom: 35px;
+    font-size: 18px;
+    font-family: 'LibreBaskerville-Regular';
+    color: white;
+}
+
+.view-projects-arrow {
+    width: 45px;
+    height: 1px;
+    display: inline-block;
+    background-color: #B0B2C3;
+    transform: rotateZ(90deg);
+
+}
+
+.main-container {
+    background-color: #F3F3F3;
+}
+
+.works-container {
+    position: relative;
+    margin: 0 auto;
+    width: 936px;
+    padding-top: 78px;
+    text-align: center;
+
+}
+
+.works-container::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    border-left: solid rgba(103, 128, 159, 0.2) 1px;
+    height: 100%;
+}
+
+.works-container::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 99%;
+    border-left: solid rgba(103, 128, 159, 0.2) 1px;
+    height: 100%;
+}
+
+.works-container h4,
+h2 {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    color: #b19386;
+    margin-bottom: 25px;
+}
+
+.works-container h2 {
+    font-family: 'LeagueSpartan';
+    font-size: 31px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    color: black;
+}
+
+.works-content {
+    margin: 70px 0 0 15px;
+}
+
+
+/*  */
+/* ///////////Terasa////////////// */
+/*  */
+
+.terasa-work {
+    position: relative;
+    left: 10px;
+    width: 936px;
+    margin-bottom: 135px;
+}
+
+.terasa-img {
+    display: block;
+    height: 478px;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+    background-repeat: no-repeat;
+}
+
+.terasa-img::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    content: " ";
+    background: #1c1d25;
+    opacity: .6;
+    z-index: 1;
+}
+
+.terasa-text {
+    text-align: left;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    top: 244px;
+    left: 90px;
+}
+
+.terasa-work h3 {
+    font-family: 'LeagueSpartan';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+
+.terasa-work h5 {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.terasa-button {
+    border: none;
+    background-color: #EF4A3E;
+    color: white;
+    font-family: 'LeagueSpartan';
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 14px 21px;
+    word-spacing: 4px;
+    position: relative;
+}
+
+.terasa-button svg {
+    fill: white;
+}
+
+
+
+/*  */
+/* ///////////Lato////////////// */
+/*  */
+
+.lato-work {
+    position: relative;
+    left: -40px;
+    width: 936px;
+    margin-bottom: 135px;
+}
+
+.lato-img {
+    display: block;
+    height: 478px;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+    background-repeat: no-repeat;
+}
+
+.lato-img::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    content: " ";
+    background: #1c1d25;
+    opacity: .6;
+    z-index: 1;
+}
+
+.lato-text {
+    text-align: right;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    right: 89px;
+    top: 244px;
+}
+
+.lato-text h3 {
+    font-family: 'LeagueSpartan';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+
+.lato-text h5 {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.lato-button {
+    border: none;
+    background-color: #EF4A3E;
+    color: white;
+    font-family: 'LeagueSpartan';
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 14px 21px;
+    word-spacing: 4px;
+    position: relative;
+}
+
+.lato-button svg {
+    fill: white;
+}
+
+/*  */
+/* ///////////Francesca////////////// */
+/*  */
+
+.francesca-work {
+    position: relative;
+    left: 9px;
+    width: 936px;
+    margin-bottom: 135px;
+}
+
+.francesca-img {
+    display: block;
+    height: 478px;
+    background-position: 50%;
+    background-size: cover;
+    box-shadow: 0 20px 80px 0 rgb(0 0 0 / 45%);
+    background-repeat: no-repeat;
+}
+
+.francesca-img::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+    content: " ";
+    background: #1c1d25;
+    opacity: .6;
+    z-index: 1;
+}
+
+.francesca-text {
+    text-align: left;
+    color: white;
+    position: absolute;
+    z-index: 2;
+    left: 89px;
+    top: 244px;
+}
+
+.francesca-text h3 {
+    font-family: 'LeagueSpartan';
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    font-size: 45px;
+    margin-bottom: 4px;
+}
+
+.francesca-text h5 {
+    font-family: 'LibreBaskerville-Regular';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.francesca-button {
+    border: none;
+    background-color: #EF4A3E;
+    color: white;
+    font-family: 'LeagueSpartan';
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    padding: 14px 21px;
+    word-spacing: 4px;
+    position: relative;
+}
+
+.francesca-button svg {
+    fill: white;
+}
