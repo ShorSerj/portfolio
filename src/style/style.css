@@ -586,6 +586,17 @@ h2 {
     font-weight: 600;
     letter-spacing: 0.6px;
     color: black;
+    position: relative;
+}
+
+.experiments-content h6::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: -13px;
+    height: 1.3px;
+    background-color: black;
+    width: 7.5px;
 }
 
 .experiments-text {
@@ -629,7 +640,8 @@ h2 {
     background-position: 50%;
     background-size: cover;
 }
-.experiments-brick{
+
+.experiments-brick {
     height: 229px;
     background-color: black;
     border-radius: 50%;
@@ -642,7 +654,8 @@ h2 {
     background-position: 50%;
     background-size: cover;
 }
-.experiments-time{
+
+.experiments-time {
     height: 229px;
     background-color: black;
     border-radius: 50%;
@@ -654,4 +667,20 @@ h2 {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
+}
+.footer{
+    background-color: #1C1D25;
+    position: relative;
+    padding: 134px 534px;
+}
+.footer-container{
+ 
+}
+.footer-logo{
+    vertical-align: middle;
+    height: auto;
+    width: 57px;
+    position: absolute;
+    left: 120px;
+    top: 5px;
 }
